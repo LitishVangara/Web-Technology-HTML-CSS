@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        *
+        {
+            padding: 0px;
+            margin: 0px;
+        }
+        body
+        {
+            background-color: aqua;
+        }
+        div
+        {
+            width: 100%;
+            height: 550px;
+            background-color: aqua;
+        }
+        img
+        {
+            width: 120px;
+            transition: all 3.5s;
+        }
+        div:hover img
+        {
+            margin-left: 93%;
+        }
+        #a
+        {
+            transition-timing-function: ease-in-out;
+        }
+        #b
+        {
+            transition-timing-function: ease-in;
+        }
+        #c
+        {
+            transition-timing-function: linear;
+        }
+        #d
+        {
+            transition-timing-function: ease-out;
+        }
+        #e
+        {
+            transition-timing-function: ease;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img id="a" src="../Photos/Car.png" alt=""><br>
+        <img id="b" src="../Photos/Bike.png" alt=""><br><br><br><br>
+        <img id="c" src="../Photos/Bus.png" alt=""><br>
+        <img id="d" src="../Photos/Train.png" alt=""><br><br><br>
+        <img id="e" src="../Photos/Flight.png" alt="">
+    </div>
+</body>
+</html>

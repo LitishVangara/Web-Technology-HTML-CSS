@@ -1,0 +1,121 @@
+1 FORM
+
+<!doctype html>
+<html>
+<head>
+<title>
+FORM
+</title>
+</head>
+<body>
+<form action="/action_page.php" method="get"
+
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+   Last name:
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <input type="checkbox" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+
+  <input type="checkbox" name="vehicle2" value="Car" checked>
+  <label for="vehicle2"> I have a car</label><br>
+
+  <input type="checkbox" name="vehicle3" value="Boat">
+  <label for="vehicle3"> I have a boat</label><br>
+
+  <input type="checkbox" name="vehicle4" value="scooty" checked>
+  <label for="vehicle4"> I have a scooty</label><br><br>
+
+  <label for="email">Email: </label> <br>
+
+<input type="radio" id="gender" name="gender" value="male"/>Male 
+
+ <input type="radio" id="gender" name="gender" value="female"/>Female <br>
+
+<label for="cars">Choose a car:</label>
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+<fieldset>  
+      <legend>User Information:</legend>
+
+Enter name:<br>
+<input type="text" id="name" name="name"><br><br>
+
+Enter Password:<br>
+<input type="Password" id="pass" name="pass"><br><br>
+
+<input type="submit" value="submit">  <br>
+</fieldset> <br><br>
+
+Email:<br>
+<input type="email" id="email" name="email"/> <br>  <br>
+
+<label for="img">Select image:</label><br> 
+  <input type="file" id="img" name="img" accept="image/*"><br> <br>
+
+<input type="submit" value="Submit">
+<hr/>
+</body>
+</html>
+
+2 TABLE
+
+<!doctype html>
+<html>
+<body>
+<style>
+table, th, td {
+  border: 5px green;
+  border-collapse: collapse;
+border-radius:10px;
+border-style:dashed;
+}
+body
+{ background-color: lightblue;
+  color: red;
+}
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+tr:hover{background-color:white;}
+td:nth-child(even){background-color:blue;}
+tr:nth-child(even){background-color:red;}
+</style>
+</head>
+<body>
+<table>
+<table  border="2" bordercolor="green"  height="100"cellpadding="75" 
+cellspacing="00"  bgcolor="pink" width="75">
+<tr style="height:250px">
+<th colspan=2 > <font color="red"> Firstname </font> </th>
+<th> <font color="yellow"> Age </font> </th>
+<th rowspan=4><font color="yellow"> l <br> u <br> n <br> c <br>  h </font> </th>
+</tr>
+ <tr>
+    <td><font color="yellow" size="80"> Jill</font></td>
+    <td><font color="yellow"> smith</font></td>
+    <td><font color="yellow"> 50</font></td>
+  </tr>
+  <tr>
+    <td><font color="yellow"> Jill</font></td>
+    <td>Jackson</td>
+    <td><font color="yellow"> 94</font></td>
+  </tr>
+  <tr>
+    <td><font color="yellow" size="100"> John</font></td>
+    <td>Doe</td>
+    <td><font color="yellow">80</font></td>
+  </tr>
+</table>
+<hr/>
+</body>
+</html>

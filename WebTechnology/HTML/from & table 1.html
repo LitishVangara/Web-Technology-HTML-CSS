@@ -1,0 +1,123 @@
+1 FORM
+
+<html>
+<head><title>ssssssss</title>
+</head>
+<body>
+
+<form action="/action_page.php" method="get">
+
+ First name:
+  <input type="text" id="fname" name="fname"><br><br>
+
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+
+  <input type="checkbox" name="vehicle1" value="Bike">
+  <label for="vehicle1"> I have a bike</label><br>
+
+  <input type="checkbox" name="vehicle2" value="Car">
+  <label for="vehicle2"> I have a car</label><br>
+
+  <input type="checkbox" name="vehicle3" value="Boat" checked>
+  <label for="vehicle3"> I have a boat</label><br><br>
+
+ <label for="email">Email: </label> <br>
+
+<input type="radio" id="gender" name="gender" value="male"/>Male  
+
+ <input type="radio" id="gender" name="gender" value="female"/>Female <br> 
+<label for="cars">Choose a car:</label>
+
+<select name="cars" id="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="mercedes">Mercedes</option>
+  <option value="audi">Audi</option>
+</select>
+
+<fieldset>  
+      <legend>User Information:</legend>  
+
+      <label for="name">Enter name</label><br> 
+     <input type="text" id="name" name="name"><br>
+  
+    <label for="pass">Enter Password</label><br>  
+     <input type="Password" id="pass" name="pass"><br><br>  
+  
+     <input type="submit" value="submit">  <br>  
+     </fieldset>   <br><br>
+
+    <label for="email"> E-Mail:</label><br>
+  <input type="email" id="email" name="email"/> <br>  <br>  
+
+<label for="img">Select image:</label><br> 
+  <input type="file" id="img" name="img" accept="image/*"><br> <br>   
+ 
+              <input type="submit" value="Submit">
+</body>
+</html>
+
+
+
+2 TABLE
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+  border: 5px solid black;
+  border-collapse: collapse;
+border-radius:10px;
+border-style:dashed;
+}
+body
+{ background-color: lightgrey;
+  color: red;
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+tr:hover{background-color:green;}
+td:nth-child(even){background-color:blue;}
+tr:nth-child(even){background-color:pink;}
+</style>
+</head>
+<body>
+<h2>Cellpadding - top - bottom - left - right </h2>
+<p>We can specify different padding for all fours sides of the cell content.</p>
+<caption><center>Time table</center></caption>
+<table  border="5" bordercolor="green"  height="50"cellpadding="15" 
+cellspacing="5"  bgcolor="pink"  width="85">
+  <tr style="height:200px">
+   <th colspan=2 ><font color="yellow"> Firstname</font></th>
+   
+    <th><font color="yellow"> Age</font></th>
+<th rowspan=4><font color="yellow"> l</font><br><font color="yellow"> u</font><br>
+<font color="yellow"> n</font><br><font color="yellow"> c</font><br><font color="yellow"> h</font></th>
+  </tr>
+  <tr>
+    <td><font color="yellow" size="80"> Jill</font></td>
+    <td><font color="yellow"> smith</font></td>
+    <td><font color="yellow"> 50</font></td>
+  </tr>
+  <tr>
+    <td><font color="yellow"> Jill</font></td>
+    <td><font color="yellow">Jackson</font></td>
+    <td><font color="yellow"> 94</font></td>
+  </tr>
+  <tr>
+    <td><font color="yellow"> John</font></td>
+    <td><font color="yellow"> Doe</font></td>
+    <td>80</td>
+  </tr>
+</table>
+<hr/>
+</body>
+</html>
+
+

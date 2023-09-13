@@ -1,0 +1,43 @@
+#abi {
+    background: #dad5e5;
+    border-width: 50px;
+    border-style: ridge;
+    border-color: rgb(255, 0, 183);
+    border-bottom-color: darkgreen;
+    border-top-color: darkcyan;
+    border-right-color: goldenrod;
+    border-left-color: tomato;
+    height: 150px;
+    width:150px; 
+    
+}
+h2 {
+    color: crimson;
+}
+h1 {
+    color: crimson;
+}
+form {
+  border-style: outset;
+  border-width: 5px;
+  border-color: rgb(75, 69, 141);
+  border-bottom-color: crimson;
+  border-right-color: chartreuse;
+  border-left-color: darkorchid;
+  width: 300px;
+  height: 390px;
+}
+form {
+    color: purple;
+    background-color: palegreen;
+}
+a:visited{
+    color: rgb(78, 255, 47);
+}
+
+#chinni::first-letter{
+    color: rgb(57, 30, 210);
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(236, 146, 11);
+}
